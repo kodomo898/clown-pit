@@ -124,10 +124,12 @@ export default function Home() {
           text-decoration: underline;
         }
 
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 4rem;
+        @media screen and (max-width: 479px) {
+          .title {
+              margin: 0;
+              line-height: 1.15;
+              font-size: 4rem;
+          }
         }
 
         .title,
@@ -214,6 +216,7 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
+          background: #f7fafc;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
