@@ -15,6 +15,7 @@ export default function Home() {
 
         <p className="description">
            <code>Infrastructure Engineer</code>
+           <img src="/cer.png" alt="cert logo" className="cert">
         </p>
 
         <div className="grid">
