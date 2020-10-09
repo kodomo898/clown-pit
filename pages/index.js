@@ -190,7 +190,7 @@ export default function Home() {
         }
 
         .cert {
-          height: 1em;
+          height: 100px;
         }
 
         @media (max-width: 600px) {
