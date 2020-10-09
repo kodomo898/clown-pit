@@ -15,7 +15,7 @@ export default function Home() {
 
         <p className="description">
            <code>Infrastructure Engineer</code>
-           <img src="/cer.png" alt="cert logo" className="cert">
+            <img src="/cer.png" alt="cert logo" className="cert" />
         </p>
 
         <div className="grid">
@@ -55,8 +55,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{'kenjin'}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          Powered by{' kenjin'}
         </a>
       </footer>
 
