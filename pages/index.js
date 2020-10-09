@@ -165,18 +165,16 @@ export default function Home() {
           margin-top: 3rem;
         }
 
-        @media screen and (max-width: 10px) {
-          .card {
-              margin: 1rem;
-              flex-basis: 45%;
-              padding: 1.5rem;
-              text-align: left;
-              color: inherit;
-              text-decoration: none;
-              border: 1px solid #eaeaea;
-              border-radius: 10px;
-              transition: color 0.15s ease, border-color 0.15s ease;
-          }
+        .card {
+            margin: 1rem;
+            flex-basis: 45%;
+            padding: 1.5rem;
+            text-align: left;
+            color: inherit;
+            text-decoration: none;
+            border: 1px solid #eaeaea;
+            border-radius: 10px;
+            transition: color 0.15s ease, border-color 0.15s ease;
         }
 
         .card:hover,
