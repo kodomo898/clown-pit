@@ -67,6 +67,8 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' kenjin'}
+        </a>
+        <a>
           <img src="/cer.png" alt="cert" className="cert" />
           <img src="/lpic1.png" alt="cert" className="cert" />
           <img src="/lpic2.png" alt="cert" className="cert" />
@@ -112,6 +114,7 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
+          padding: 10px;
         }
 
         a {
