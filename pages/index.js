@@ -71,6 +71,7 @@ export default function Home() {
       </footer>
 
       <style jsx>{`
+      @media screen and (max-width: 479px) {
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
@@ -207,6 +208,7 @@ export default function Home() {
             flex-direction: column;
           }
         }
+      }
       `}</style>
 
       <style jsx global>{`
