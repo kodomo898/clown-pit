@@ -67,6 +67,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' kenjin'}
+          <img src="/cer.png" alt="cert" className="logo" />
         </a>
       </footer>
 
