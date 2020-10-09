@@ -10,7 +10,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Kenjin(kodomo893)</a>
+          Kenjin(kodomo893)
         </h1>
 
         <p className="description">
