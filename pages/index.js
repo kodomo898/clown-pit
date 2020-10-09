@@ -186,7 +186,7 @@ export default function Home() {
         }
 
         .logo {
-          height: 20em;
+          height: 20px;
         }
 
         .cert {
