@@ -27,7 +27,7 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          <a href="" className="card">
+          <a href="/profile" className="card">
             <h3>プロフィール &rarr;</h3>
             <p>私の簡単な経歴と自己紹介です。</p>
           </a>
