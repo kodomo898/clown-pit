@@ -26,16 +26,17 @@ export default function Home() {
         <p>
             AWSに興味を持ちAWS専門の会社に転職
             AWSでの構築をメインに各企業に提案・構築・保守・運用・その他を実施
-            Wordpress専用耐高負荷3環境システム「WoliPa」を単独開発
         </p>
         <p>
+            Wordpress専用耐高負荷3環境システム<a href="https://wolipa.biz/">WoliPa</a>を単独開発
             Dockerを利用することによりインフラ/開発陣営どちらにも優しいシステムを提供することに成功
-            https://wolipa.biz/
         </p>
         <p>
             wolipaはコンテナにて構築設計されており、
             コンテナ技術に関しても多くの知識を得ている
-            ECSを利用した構築も可能
+        </p>
+        <p>
+            ECS等のコンテナオーケストレーションツールを利用した構築経験も豊富
         </p>
       </section>
     </Layout>
