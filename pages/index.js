@@ -68,11 +68,10 @@ export default function Home() {
         >
           Powered by{' kenjin'}
         </a>
-        <p className="cert">
+        <p className="certbox">
           <img src="/cer.png" alt="cert" className="cert" />
           <img src="/lpic1.png" alt="cert" className="cert" />
           <img src="/lpic2.png" alt="cert" className="cert" />
-          <img src="/ccna.png" alt="cert" className="cert" />
         </p>
       </footer>
 
@@ -98,7 +97,7 @@ export default function Home() {
         footer {
           width: 100%;
           height: 100px;
-          border-top: 1px solid #eaeaea;
+          border-top: 10px solid #fffff;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -207,6 +206,10 @@ export default function Home() {
 
         .cert {
           height: 100px;
+        }
+
+        .certbox {
+          padding-top: 10px;
         }
 
         @media (max-width: 600px) {
