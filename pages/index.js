@@ -68,7 +68,7 @@ export default function Home() {
         >
           Powered by{' kenjin'}
         </a>
-        <p>
+        <p className="cert">
           <img src="/cer.png" alt="cert" className="cert" />
           <img src="/lpic1.png" alt="cert" className="cert" />
           <img src="/lpic2.png" alt="cert" className="cert" />
