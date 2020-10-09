@@ -15,6 +15,9 @@ export default function Home() {
 
         <p className="description">
            <code>Infrastructure Engineer</code>
+        </p>
+
+        <p className="certlogo">
             <img src="/cer.png" alt="cert logo" className="cert" />
         </p>
 
@@ -129,6 +132,10 @@ export default function Home() {
           font-size: 1.5rem;
         }
 
+        .certlogo {
+          line-height: 1.5;
+        }
+
         code {
           background: #fafafa;
           border-radius: 5px;
@@ -179,7 +186,7 @@ export default function Home() {
         }
 
         .logo {
-          height: 1em;
+          height: 20em;
         }
 
         .cert {
