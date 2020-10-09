@@ -67,12 +67,10 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' kenjin'}
-        </a>
-        <p className="certbox">
           <img src="/cer.png" alt="cert" className="cert" />
           <img src="/lpic1.png" alt="cert" className="cert" />
           <img src="/lpic2.png" alt="cert" className="cert" />
-        </p>
+        </a>
       </footer>
 
       <style jsx>{`
