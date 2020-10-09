@@ -10,17 +10,17 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Kenjin(kodomo893)</a>
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+           <code>Infrastructure Engineer</code>
         </p>
 
         <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h3>プロフィール &rarr;</h3>
+            <p>私の簡単な経歴と自己紹介です。</p>
           </a>
 
           <a href="https://nextjs.org/learn" className="card">
