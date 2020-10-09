@@ -182,6 +182,10 @@ export default function Home() {
           height: 1em;
         }
 
+        .cert {
+          height: 1em;
+        }
+
         @media (max-width: 600px) {
           .grid {
             width: 100%;
