@@ -24,16 +24,16 @@ export default function Home() {
           </a>
 
           <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <h3>アウトプット記事 &rarr;</h3>
+            <p>技術的なアウトプットを記事にしてこちらに記述しています。</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className="card"
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h3>お仕事のご依頼 &rarr;</h3>
+            <p>技術的なお悩みのご相談など受け付けております。またサービス毎の値段例等も記載しております。</p>
           </a>
 
           <a
@@ -54,7 +54,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{'kenjin'}
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
       </footer>
