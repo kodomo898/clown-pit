@@ -124,7 +124,7 @@ export default function Home() {
           text-decoration: underline;
         }
 
-        @media screen and (max-width: 479px) {
+        @media screen and (max-width: 10px) {
           .title {
               margin: 0;
               line-height: 1.15;
@@ -165,16 +165,18 @@ export default function Home() {
           margin-top: 3rem;
         }
 
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
+        @media screen and (max-width: 10px) {
+          .card {
+              margin: 1rem;
+              flex-basis: 45%;
+              padding: 1.5rem;
+              text-align: left;
+              color: inherit;
+              text-decoration: none;
+              border: 1px solid #eaeaea;
+              border-radius: 10px;
+              transition: color 0.15s ease, border-color 0.15s ease;
+          }
         }
 
         .card:hover,
