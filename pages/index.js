@@ -39,7 +39,7 @@ export default function Home() {
             className="card"
           >
             <h3>お仕事のご依頼 &rarr;</h3>
-            <p>技術的なお悩みのご相談など受け付けております。</p>
+            <p>ご相談受け付けております。</p>
           </a>
 
           <a
@@ -188,7 +188,7 @@ export default function Home() {
         }
 
         .logo {
-          height: 100px;
+          height: 50px;
         }
 
         .cert {
