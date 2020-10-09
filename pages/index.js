@@ -19,7 +19,7 @@ export default function Home() {
 
         <p className="twitterlogo">
             <a href="https://twitter.com/kenji_infra_man">
-                <img src="/twitter.png" alt="twitter logo" className="logo" />
+                <img src="/twitter.png" alt="kenjin" className="logo" />
             </a>
         </p>
 
