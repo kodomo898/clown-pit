@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -27,10 +28,12 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          <a href="/profile" className="card">
-            <h3>プロフィール &rarr;</h3>
-            <p>私の簡単な経歴と自己紹介です。</p>
-          </a>
+          <Link href="/profile">
+              <a>
+                <h3>プロフィール &rarr;</h3>
+                <p>私の簡単な経歴と自己紹介です。</p>
+              </a>
+          </Link>
 
           <a href="" className="card">
             <h3>アウトプット記事 &rarr;</h3>
