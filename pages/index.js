@@ -4,38 +4,41 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>kodomo893</title>
+          <title>KEN-Z</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Kenjin(kodomo893)
+          KEN-Z(kodomo893)
         </h1>
 
         <p className="description">
            <code>Infrastructure Engineer</code>
         </p>
 
-        <p className="twitterlogo">
+        <p className="sociallogo">
             <a href="https://twitter.com/kenji_infra_man">
-                <img src="/twitter.png" alt="kenjin" className="logo" />
+                <img src="/twitter.png" alt="KEN-Z" className="logo" />
+            </a>
+            <a href="https://www.wantedly.com/users/31440881">
+                <img src="/wanted.png" alt="wantedly" className="logo" />
             </a>
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
+          <a href="" className="card">
             <h3>プロフィール &rarr;</h3>
             <p>私の簡単な経歴と自己紹介です。</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
+          <a href="" className="card">
             <h3>アウトプット記事 &rarr;</h3>
             <p>技術的なアウトプット記事。</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href=""
             className="card"
           >
             <h3>お仕事のご依頼 &rarr;</h3>
@@ -43,7 +46,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className="card"
           >
             <h3>お問い合わせ &rarr;</h3>
@@ -56,7 +59,7 @@ export default function Home() {
 
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >
