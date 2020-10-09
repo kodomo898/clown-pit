@@ -17,8 +17,10 @@ export default function Home() {
            <code>Infrastructure Engineer</code>
         </p>
 
-        <p className="certlogo">
-            <img src="/cer.png" alt="cert logo" className="cert" />
+        <p className="twitterlogo">
+            <a href="https://twitter.com/kenji_infra_man">
+                <img src="/twitter.png" alt="twitter logo" className="logo" />
+            </a>
         </p>
 
         <div className="grid">
@@ -29,7 +31,7 @@ export default function Home() {
 
           <a href="https://nextjs.org/learn" className="card">
             <h3>アウトプット記事 &rarr;</h3>
-            <p>技術的なアウトプットを記事にしてこちらに記述しています。</p>
+            <p>技術的なアウトプット記事。</p>
           </a>
 
           <a
@@ -37,16 +39,16 @@ export default function Home() {
             className="card"
           >
             <h3>お仕事のご依頼 &rarr;</h3>
-            <p>技術的なお悩みのご相談など受け付けております。またサービス毎の値段例等も記載しております。</p>
+            <p>技術的なお悩みのご相談など受け付けております。</p>
           </a>
 
           <a
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className="card"
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>お問い合わせ &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              お気軽にどうぞ。
             </p>
           </a>
         </div>
