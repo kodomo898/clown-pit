@@ -41,7 +41,7 @@ export default function Home() {
           </a>
 
           <a
-            href=""
+            href="/order"
             className="card"
           >
             <h3>お仕事のご依頼 &rarr;</h3>

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>{profTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
         <p><b>紹介</b></p>
@@ -97,9 +97,6 @@ export default function Home() {
         <p>・Well-Architectedを元としたAWS改修</p>
         <p>・Terraformの作成・保守</p>
         <p>・チームのタスク管理等</p>
-
-
-
 
       </section>
     </Layout>
