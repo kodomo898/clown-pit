@@ -14,11 +14,11 @@ export default function Home() {
           KEN-Z(kodomo893)
         </h1>
 
-        <p className="description">
-           <code>Infrastructure Engineer</code>
+        <p className="anime-type">
+          Infrastructure Engineer
         </p>
 
-        <p className="sociallogo">
+        <p>
             <a href="https://twitter.com/kenji_infra_man">
                 <img src="/twitter.png" alt="KEN-Z" className="logo" />
             </a>
@@ -203,6 +203,7 @@ export default function Home() {
 
         .logo {
           height: 50px;
+          float: right;
         }
 
         .cert {
@@ -213,6 +214,10 @@ export default function Home() {
           padding-top: 100px;
           padding: 1.1rem;
           width: 100%;
+        }
+
+        .img {
+          float: right;
         }
 
         @media (max-width: 600px) {
