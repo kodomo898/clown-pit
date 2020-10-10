@@ -22,13 +22,6 @@ export default function Order() {
             <p>50,000円 ~ (構築含む)(相談可)</p>
         </div>
         <div className={utilStyles.box10}>
-            <b>- WEBサイト構築 </b>
-            <p>Wordpress利用(HP)</p> 
-            <p>200,000円 ~ (構築含む)(相談可)</p>
-            <p>ランディングページ</p>
-            <p>50,000円 ~ (構築含む)(相談可)</p>
-        </div>
-        <div className={utilStyles.box10}>
             <b>- 各種システム構築</b>
             <p>(例)予約管理システム(決済システム含む) </p>
             <p>2,000,000円 ~ (構築含む)(相談可)</p>
