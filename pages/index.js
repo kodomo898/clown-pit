@@ -66,12 +66,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' kenjin'}
-        </a>
-        <a>
-          <img src="/cer.png" alt="cert" className="cert" />
-          <img src="/lpic1.png" alt="cert" className="cert" />
-          <img src="/lpic2.png" alt="cert" className="cert" />
+          Powered by{' KEN-Z'}
         </a>
       </footer>
 
@@ -94,27 +89,29 @@ export default function Home() {
           align-items: center;
         }
 
+        footer {
+          width: 100%;
+          height: 100px;
+          border-top: 1px solid #eaeaea;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+        }
+
         @media screen and (max-width: 10px) {
-          footer {
-            width: 100%;
-            height: 100px;
-            border-top: 1px solid #eaeaea;
+          footer img {
+            margin-left: 0.5rem;
+          }
+        }
+
+        @media screen and (max-width: 10px) {
+          footer a {
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 10px;
           }
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 10px;
         }
 
         a {
@@ -209,11 +206,13 @@ export default function Home() {
         }
 
         .cert {
-          height: 100px;
+          height: 80px;
         }
 
         .certbox {
-          padding-top: 10px;
+          padding-top: 100px;
+          padding: 1.1rem;
+          width: 100%;
         }
 
         @media (max-width: 600px) {

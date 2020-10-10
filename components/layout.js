@@ -53,6 +53,11 @@ export default function Layout({ children, home }) {
           </>
         )}
       </header>
+      <div className={`${styles.certImage}`}>
+        <img src="/cer.png" alt="cert" className={`${styles.certImage}`} />
+        <img src="/lpic1.png" alt="cert" className={`${styles.certImage}`} />
+        <img src="/lpic2.png" alt="cert" className={`${styles.certImage}`} />
+      </div>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
