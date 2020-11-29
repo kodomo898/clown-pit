@@ -6,7 +6,7 @@ import Link from 'next/link'
 const name = 'AIS Member'
 export const profTitle = 'AIS profile'
 export const orderTitle = 'お仕事依頼'
-export const caseTitle = 'サービス事例'
+export const caseTitle = 'サービcス事例'
 
 export default function Layout({ children, home }) {
   return (
@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <img
-              src="/images/profile.jpg"
+              src="/cooltext369974407385495.png"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
@@ -41,7 +41,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <a>
                 <img
-                  src="/images/profile.jpg"
+                  src="/cooltext369974407385495.png"
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
                 />
