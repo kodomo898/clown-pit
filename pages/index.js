@@ -32,7 +32,7 @@ export default function Home() {
               </a>
           </Link>
 
-          <a href="" className="card">
+          <a href="/case" className="card">
             <h3>サービス事例 &rarr;</h3>
             <p>グループ所属エンジニアの開発事例。</p>
           </a>
