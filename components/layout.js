@@ -3,8 +3,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'KEN-Z'
-export const profTitle = 'KEN-Z profile'
+const name = 'AIS Member'
+export const profTitle = 'AIS profile'
 export const orderTitle = 'お仕事依頼'
 export const caseTitle = 'サービス事例'
 
@@ -15,7 +15,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="ken-z site"
+          content="AIS site"
         />
         <meta
           property="og:image"
