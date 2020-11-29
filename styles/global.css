@@ -65,5 +65,8 @@ img {
 }
 
 .tele-logo {
-    width: 10px;
+    min-height: 200px;
+    height: auto !important;
+    height: 200px;
+    border-radius: 10px 10px 10px 10px;
 }
