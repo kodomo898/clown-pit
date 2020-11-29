@@ -9,15 +9,11 @@ export default function Case() {
         <title>{caseTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <div className="anime-type-case">事例</div>
-        <div className={utilStyles.box10}>
-            <b>- ご相談 </b>
-            <p>基本無料　※調査必須の場合は別途相談</p>
-        </div>
+        <div className="anime-type-case">サービス事例</div>
         <div className={utilStyles.box10}>
             <b>テレライブ </b>
             <p>@hidexir</p>
-            <img src="/tele.png" alt="テレライブ" className="logo" />
+            <img src="/tele.png" alt="テレライブ" className="tele-logo" />
         </div>
         <div className={utilStyles.box10}>
             <b>- 各種システム構築</b>
@@ -36,5 +32,10 @@ export default function Case() {
 
       </section>
     </LayoutCase>
+    <style jsx>{`
+        .tele-logo {
+            width: 10px;
+        }
+    `}`
   )
 }
