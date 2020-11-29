@@ -13,7 +13,7 @@ export default function Case() {
         <div className={utilStyles.box10}>
             <b>テレライブ (Serverside)</b>
             <p>@hidexir</p>
-            <img src="/tele.png" alt="テレライブ" className="tele-logo" />
+            <img src="/tele.jpg" alt="テレライブ" className="tele-logo" />
             <a href="https://tele.live/">https://tele.live/</a>
         </div>
         <div className={utilStyles.box10}>
