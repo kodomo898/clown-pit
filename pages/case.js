@@ -32,10 +32,5 @@ export default function Case() {
 
       </section>
     </LayoutCase>
-    <style jsx>{`
-        .tele-logo {
-            width: 10px;
-        }
-    `}`
   )
 }

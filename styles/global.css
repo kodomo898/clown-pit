@@ -63,3 +63,7 @@ img {
     animation: typing 1s steps(5),
     cursor 1s steps(1) infinite;
 }
+
+.tele-logo {
+    width: 10px;
+}
