@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-          <title><img src="/tele.jpg" alt="テレライブ" className="tele-logo" /></title>
+          <title>AIS's</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          AIS's
+          <img src="/tele.jpg" alt="テレライブ" className="tele-logo" />
         </h1>
 
         <p className="anime-type">
