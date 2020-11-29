@@ -63,7 +63,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' KEN-Z'}
+          Powered by{' AIS\'s'}
         </a>
       </footer>
 
