@@ -102,7 +102,7 @@ export function LayoutOrder({ children, order }) {
   )
 }
 
-export function LayoutCase({ children, order }) {
+export function LayoutCase({ children, case }) {
   return (
     <div className={styles.container}>
     <Head>
@@ -114,7 +114,7 @@ export function LayoutCase({ children, order }) {
       <meta
         property="og:image"
         content={`https://og-image.now.sh/${encodeURI(
-          orderTitle
+          caseTitle
         )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
       />
       <meta name="og:title" content={caseTitle} />
