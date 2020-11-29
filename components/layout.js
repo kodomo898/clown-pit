@@ -102,7 +102,7 @@ export function LayoutOrder({ children, order }) {
   )
 }
 
-export function LayoutCase({ children, case }) {
+export function LayoutCase({ children }) {
   return (
     <div className={styles.container}>
     <Head>
@@ -121,7 +121,7 @@ export function LayoutCase({ children, case }) {
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
     <main>{children}</main>
-      {case && (
+      {(
         <div className={styles.backToHome}>
           <Link href="/">
             <a>← Back to home</a>
