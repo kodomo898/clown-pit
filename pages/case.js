@@ -12,28 +12,33 @@ export default function Case() {
         <div className="anime-type-case">サービス事例</div>
         <div className={utilStyles.box10}>
             <b>テレライブ (Serverside)</b>
-            <p>@hidexir @milk</p>
+            <p>@hidexir</p>
             <img src="/tele.jpg" alt="テレライブ" className="tele-logo" />
         </div>
         <div className={utilStyles.box10}>
-            <b>BraveFrontier (infrastructure)</b>
+            <b>BraveFrontier (Infrastructure)</b>
             <p>@ken-z</p>
             <img src="/brave.png" alt="bravefrontier" className="tele-logo" />
         </div>
         <div className={utilStyles.box10}>
-            <b>FINAL FANTASY BRAVE EXVIUS (infrastructure)</b>
+            <b>FINAL FANTASY BRAVE EXVIUS (Infrastructure)</b>
             <p>@ken-z</p>
             <img src="/ex.jpg" alt="ff" className="tele-logo" />
         </div>
         <div className={utilStyles.box10}>
-            <b>UUUM Recruit Page (infrastructure)</b>
+            <b>UUUM Recruit Page (Infrastructure)</b>
             <p>@ken-z</p>
             <img src="/recruit.png" alt="recruit" className="tele-logo" />
         </div>
         <div className={utilStyles.box10}>
-            <b>UUUM HomePage (infrastructure/Design)</b>
+            <b>UUUM HomePage (Infrastructure)</b>
             <p>@ken-z</p>
-            <img src="/hp.png" alt="rhemsdethin" className="tele-logo" />
+            <img src="/hp.png" alt="uuum" className="tele-logo" />
+        </div>
+        <div className={utilStyles.box10}>
+            <b>ADMIXLINE HomePage (Design)</b>
+            <p>@kazuki</p>
+            <img src="/admix.png" alt="admix" className="tele-logo" />
         </div>
 
       </section>
