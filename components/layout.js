@@ -3,7 +3,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'AIS Member'
+const name = 'Certificate & Member'
 export const profTitle = 'AIS profile'
 export const orderTitle = 'お仕事依頼'
 export const caseTitle = 'サービcス事例'
