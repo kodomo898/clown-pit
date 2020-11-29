@@ -5,25 +5,22 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-          <title>KEN-Z</title>
+          <title>AIS's</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          KEN-Z(kodomo893)
+          AIS's
         </h1>
 
         <p className="anime-type">
-          Infrastructure Engineer
+          Competent Engineer Group
         </p>
 
         <p>
             <a href="https://twitter.com/kenji_infra_man">
-                <img src="/twitter.png" alt="KEN-Z" className="logo" />
-            </a>
-            <a href="https://www.wantedly.com/users/31440881">
-                <img src="/wanted.png" alt="wantedly" className="logo" />
+                <img src="/twitter.png" alt="代表" className="logo" />
             </a>
         </p>
 
@@ -31,13 +28,13 @@ export default function Home() {
           <Link href="/profile">
               <a className="card">
                 <h3>プロフィール &rarr;</h3>
-                <p>私の簡単な経歴と自己紹介です。</p>
+                <p>グループ所属エンジニアの簡単な経歴。</p>
               </a>
           </Link>
 
           <a href="" className="card">
-            <h3>アウトプット記事 &rarr;</h3>
-            <p>技術的なアウトプット記事。</p>
+            <h3>サービス事例 &rarr;</h3>
+            <p>グループ所属エンジニアの開発事例。</p>
           </a>
 
           <a
