@@ -33,8 +33,9 @@ export default function Case() {
         <div className={utilStyles.box10}>
             <b>UUUM HomePage (infrastructure/Design)</b>
             <p>@ken-z</p>
-            <img src="/design.png" alt="rhemsdethin" className="tele-logo" />
+            <img src="/hp.png" alt="rhemsdethin" className="tele-logo" />
         </div>
+
       </section>
     </LayoutCase>
   )
