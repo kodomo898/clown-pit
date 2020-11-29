@@ -12,21 +12,29 @@ export default function Case() {
         <div className="anime-type-case">サービス事例</div>
         <div className={utilStyles.box10}>
             <b>テレライブ (Serverside)</b>
-            <p>@hidexir</p>
+            <p>@hidexir @milk</p>
             <img src="/tele.jpg" alt="テレライブ" className="tele-logo" />
-            <a href="https://tele.live/">https://tele.live/</a>
         </div>
         <div className={utilStyles.box10}>
             <b>BraveFrontier (infrastructure)</b>
             <p>@ken-z</p>
-            <img src="/brave.png" alt="テレライブ" className="tele-logo" />
+            <img src="/brave.png" alt="bravefrontier" className="tele-logo" />
         </div>
         <div className={utilStyles.box10}>
             <b>FINAL FANTASY BRAVE EXVIUS (infrastructure)</b>
             <p>@ken-z</p>
-            <img src="/ex.jpg" alt="テレライブ" className="tele-logo" />
+            <img src="/ex.jpg" alt="ff" className="tele-logo" />
         </div>
-
+        <div className={utilStyles.box10}>
+            <b>UUUM Recruit Page (infrastructure)</b>
+            <p>@ken-z</p>
+            <img src="/recruit.png" alt="recruit" className="tele-logo" />
+        </div>
+        <div className={utilStyles.box10}>
+            <b>UUUM HomePage (infrastructure/Design)</b>
+            <p>@ken-z</p>
+            <img src="/design.png" alt="rhemsdethin" className="tele-logo" />
+        </div>
       </section>
     </LayoutCase>
   )
