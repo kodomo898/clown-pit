@@ -44,12 +44,6 @@ export default function Home() {
             <h3>お仕事のご依頼 &rarr;</h3>
             <p>ご相談受け付けております。</p>
           </a>
-
-          <a
-            href=""
-            className="card"
-          >
-          </a>
         </div>
       </main>
 
