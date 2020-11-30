@@ -6,7 +6,7 @@ import Link from 'next/link'
 const name = 'Certificate & Member'
 export const profTitle = 'AIS profile'
 export const orderTitle = 'お仕事依頼'
-export const caseTitle = 'サービcス事例'
+export const caseTitle = 'サービス事例'
 
 export default function Layout({ children, home }) {
   return (

@@ -15,6 +15,9 @@ export default function Order() {
             <p>基本無料　※調査必須の場合は別途相談</p> 
         </div>
         <div className={utilStyles.box10}>
+            <p><b>- WEBアプリ/ios・androidアプリ(構築含む)(相談可)</b></p>
+        </div>
+        <div className={utilStyles.box10}>
             <b>- WEBサイト構築 </b>
             <p>Wordpress利用(HP)(構築含む)(相談可)</p>
             <p>ランディングページ(構築含む)(相談可)</p>
