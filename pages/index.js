@@ -49,10 +49,6 @@ export default function Home() {
             href=""
             className="card"
           >
-            <h3>お問い合わせ &rarr;</h3>
-            <p>
-              お気軽にどうぞ。
-            </p>
           </a>
         </div>
       </main>
