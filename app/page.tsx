@@ -7,7 +7,7 @@ export default function Home() {
         <Image
           className="dark:invert"
           src="/cooltext471460951563545.png"
-          alt="Next.js logo"
+          alt="clownpit logo"
           width={180}
           height={38}
           priority
