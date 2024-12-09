@@ -11,7 +11,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          <img src="/cooltext369974407385495.png" alt="AIS" className="tele-logo" />
+          <img src="/cooltext471460951563545.png" alt="AIS" className="tele-logo" />
         </h1>
 
         <p className="anime-type">
