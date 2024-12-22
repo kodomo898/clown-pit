@@ -60,7 +60,7 @@ body {
   z-index: -1;
 
   /* モザイク効果 */
-  filter: blur(10px) contrast(90%);
+  filter: blur(3.5px) contrast(90%);
 }
 
 .container {
