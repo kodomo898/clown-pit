@@ -39,13 +39,19 @@ export default function Examples() {
     {
       title: "VRコンテンツ配信基盤構築",
       description: "VRコンテンツの配信基盤を構築",
-      tech: ["AWS", "Cloudfront", "LightSail", "Lambda"],
+      tech: ["AWS", "Cloudfront", "LightSail", "Lambda", "API Gateway"],
       image: "/corp_example/vr-site.png"
     },
     {
       title: "ホームページ作成(各種)",
       description: "複数のコーポレートページ・サービスページ・ランディングページを作成",
       tech: ["AWS", "Cloudfront", "LightSail", "Lambda", "Sakura Cloud", "Vercel"],
+      image: "/corp_example/hp-site.png"
+    },
+    {
+      title: "Windows用アプリ改修",
+      description: "プリクラ機専用のWindows用アプリの改修を行った。",
+      tech: ["AWS", "EC2"],
       image: "/corp_example/hp-site.png"
     }
   ];

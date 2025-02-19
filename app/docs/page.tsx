@@ -67,6 +67,13 @@ export default function Docs() {
                     「技術力と創造性で、未来のビジネスを創造する」
                   </p>
                 </div>
+                <div className="mt-4 p-4 bg-black/[.03] dark:bg-white/[.03] rounded-lg">
+                  <p className="text-xs leading-relaxed tracking-wide">
+                    私たちは、お客様のビジネスの成長と成功のために、最高品質のソリューションを提供することを約束します。
+                    技術革新が加速する現代において、お客様のビジネスが競争力を維持し、さらなる発展を遂げられるよう、
+                    私たちの専門知識と経験を活かしてサポートいたします。
+                  </p>
+                </div>
               </div>
             </section>
 
