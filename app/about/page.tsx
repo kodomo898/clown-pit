@@ -1,15 +1,15 @@
 "use client";
 
 import { useEffect } from 'react';
-import { Space_Grotesk } from 'next/font/google';
+// import { Space_Grotesk } from 'next/font/google';
 import HamburgerMenu from '../components/HamburgerMenu';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const spaceGrotesk = Space_Grotesk({
-  subsets: ['latin'],
-  display: 'swap',
-});
+// const spaceGrotesk = Space_Grotesk({
+//   subsets: ['latin'],
+//   display: 'swap',
+// });
 
 export default function About() {
   useEffect(() => {
