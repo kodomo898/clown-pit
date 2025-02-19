@@ -15,7 +15,7 @@ export default function Examples() {
     {
       title: "UULEを利用したMEOツール",
       description: "特定のエリアにいるかのように振る舞い、GoogleMapの上位表示を狙うツールを開発。",
-      tech: ["Next.js", "Python", "MySQL", "Docker", "Cloud Run", "Cloud SQL", "Cloud Functions", "Google My Business API"],
+      tech: ["GCP", "Next.js", "Python", "MySQL", "Docker", "Cloud Run", "Cloud SQL", "Cloud Functions", "Google My Business API"],
       image: "/corp_example/meo-tool.png"
     },
     {
@@ -49,10 +49,22 @@ export default function Examples() {
       image: "/corp_example/hp-site.png"
     },
     {
-      title: "Windows用アプリ改修",
-      description: "プリクラ機専用のWindows用アプリの改修を行った。",
+      title: "Windows用アプリ改修/負荷テスト実施",
+      description: "プリクラ機専用のWindows用アプリの改修を行った。また、そのAPIに対しk6を用いた負荷テストを実施した。",
       tech: ["AWS", "EC2"],
       image: "/corp_example/windows-app.jpg"
+    },
+    {
+      title: "k6を利用した各種負荷テスト",
+      description: "k6を利用した各種負荷テスト（個別にシナリオを作成して実施）を行った。",
+      tech: ["k6"],
+      image: "/corp_example/k6-test.png"
+    },
+    {
+      title: "既存システムの脆弱性診断",
+      description: "既存システムの脆弱性診断を実施。基本的なクラウドインスタンスの脆弱性診断や、NMAPやMetasploitを用いた調査を実施し、脆弱性を特定する",
+      tech: ["AWS", "GCP", "NMAP", "Metasploit", "Wordpress"],
+      image: "/corp_example/vulnerability-test.png"
     }
   ];
 
