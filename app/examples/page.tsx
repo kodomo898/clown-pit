@@ -52,7 +52,7 @@ export default function Examples() {
       title: "Windows用アプリ改修",
       description: "プリクラ機専用のWindows用アプリの改修を行った。",
       tech: ["AWS", "EC2"],
-      image: "/corp_example/hp-site.png"
+      image: "/corp_example/windows-app.jpg"
     }
   ];
 
