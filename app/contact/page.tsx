@@ -1,9 +1,16 @@
 "use client";
 
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+
 import HamburgerMenu from '../components/HamburgerMenu';
+
+declare global {
+  interface Window {
+    onTurnstileSuccess: (token: string) => void;
+  }
+}
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -13,10 +20,35 @@ export default function Contact() {
     message: ''
   });
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+  const [token, setToken] = useState<string | null>(null);
+
+  useEffect(() => {
+    // グローバルコールバック関数を定義
+    window.onTurnstileSuccess = (token: string) => {
+      setToken(token);
+    };
+
+    const script = document.createElement('script');
+    script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onTurnstileCallback';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+      // @ts-ignore
+      delete window.onTurnstileSuccess;
+    };
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('loading');
+
+    if (!token) {
+      setStatus('error');
+      return;
+    }
 
     try {
       const response = await fetch('/api/contact', {
@@ -24,7 +56,10 @@ export default function Contact() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          ...formData,
+          token
+        }),
       });
 
       if (!response.ok) {
@@ -34,6 +69,7 @@ export default function Contact() {
 
       setStatus('success');
       setFormData({ name: '', email: '', company: '', message: '' });
+      setToken(null);
     } catch (err) {
       console.error('Contact form error:', err);
       setStatus('error');
@@ -132,9 +168,17 @@ export default function Contact() {
               </div>
             </div>
 
+            <div className="flex justify-center">
+              <div 
+                className="cf-turnstile" 
+                data-sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
+                data-callback="onTurnstileSuccess"
+              />
+            </div>
+
             <button
               type="submit"
-              disabled={status === 'loading'}
+              disabled={status === 'loading' || !token}
               className="w-full py-3 px-6 rounded-lg bg-black dark:bg-white text-white dark:text-black font-medium hover:opacity-90 transition-opacity disabled:opacity-50 font-[family-name:var(--font-geist-mono)]"
             >
               {status === 'loading' ? 'Sending...' : 'Send Message'}
