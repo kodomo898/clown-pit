@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -36,7 +36,7 @@ export default function Contact() {
 
     return () => {
       document.body.removeChild(script);
-      // @ts-ignore
+      // @ts-expect-error - window.onTurnstileSuccessの削除
       delete window.onTurnstileSuccess;
     };
   }, []);
