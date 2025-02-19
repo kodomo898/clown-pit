@@ -27,11 +27,15 @@ export default function Contact() {
         body: JSON.stringify(formData),
       });
 
-      if (!response.ok) throw new Error('送信に失敗しました');
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || '送信に失敗しました');
+      }
 
       setStatus('success');
       setFormData({ name: '', email: '', company: '', message: '' });
-    } catch (error) {
+    } catch (err) {
+      console.error('Contact form error:', err);
       setStatus('error');
     }
   };
