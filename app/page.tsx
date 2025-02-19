@@ -22,7 +22,7 @@ export default function Home() {
             <div className="hidden sm:flex space-x-8">
               <Link href="/about" className="text-sm hover:text-gray-600 dark:hover:text-gray-300 font-[family-name:var(--font-geist-mono)]">About</Link>
               <Link href="/examples" className="text-sm hover:text-gray-600 dark:hover:text-gray-300 font-[family-name:var(--font-geist-mono)]">Examples</Link>
-              <a href="#" className="text-sm hover:text-gray-600 dark:hover:text-gray-300 font-[family-name:var(--font-geist-mono)]">Contact</a>
+              <Link href="/contact" className="text-sm hover:text-gray-600 dark:hover:text-gray-300 font-[family-name:var(--font-geist-mono)]">Contact</Link>
             </div>
             <div className="sm:hidden">
               <HamburgerMenu />

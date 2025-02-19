@@ -88,7 +88,7 @@ export default function HamburgerMenu() {
               </li>
               <li>
                 <Link 
-                  href="#" 
+                  href="/contact" 
                   className="text-2xl text-white/80 hover:text-white transition-colors font-[family-name:var(--font-geist-mono)] flex items-center group"
                   onClick={() => setIsOpen(false)}
                 >
