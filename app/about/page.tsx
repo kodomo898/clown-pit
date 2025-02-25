@@ -11,7 +11,7 @@ import Link from 'next/link';
 //   display: 'swap',
 // });
 
-export default function Docs() {
+export default function About() {
   useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://cdn.jsdelivr.net/npm/marked/marked.min.js';
@@ -93,6 +93,14 @@ export default function Docs() {
                   <h3 className="font-medium mb-2">AIソリューション</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">最新のAI技術を活用したビジネスソリューションの提供</p>
                 </div>
+                <div className="p-4 bg-black/[.03] dark:bg-white/[.03] rounded-lg backdrop-blur-sm">
+                  <h3 className="font-medium mb-2">ホームページ作成(各種)</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">複数のコーポレートページ・サービスページ・ランディングページを作成</p>
+                </div>
+                <div className="p-4 bg-black/[.03] dark:bg-white/[.03] rounded-lg backdrop-blur-sm">
+                  <h3 className="font-medium mb-2">テックコンサルティング</h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">技術的な解決案を提供するコンサルティングと、サービスに対するアドバイス</p>
+                </div>
               </div>
             </section>
 
@@ -133,6 +141,29 @@ export default function Docs() {
           </div>
         </div>
       </main>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "株式会社ClownPit",
+            "description": "最新のテクノロジーを活用し、お客様のビジネスに革新的なソリューションを提供する",
+            "url": "https://clownpit.com",
+            "foundingDate": "2024-01-04",
+            "numberOfEmployees": 3,
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "JP"
+            },
+            "sameAs": [
+              "https://twitter.com/clownpit",
+              "https://github.com/clownpit"
+            ]
+          })
+        }}
+      />
     </div>
   );
 }

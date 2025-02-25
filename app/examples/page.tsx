@@ -65,6 +65,12 @@ export default function Examples() {
       description: "既存システムの脆弱性診断を実施。基本的なクラウドインスタンスの脆弱性診断や、NMAPやMetasploitを用いた調査を実施し、脆弱性を特定する",
       tech: ["AWS", "GCP", "NMAP", "Metasploit", "Wordpress"],
       image: "/corp_example/vulnerability-test.png"
+    },
+    {
+      title: "AWS Glueを利用したETL",
+      description: "AWS Glueを利用したETLを行った。",
+      tech: ["AWS", "Glue", "Python", "AWS Lambda", "AWS S3", "AWS Athena", "AWS Redshift"],
+      image: "/corp_example/etl.png"
     }
   ];
 
