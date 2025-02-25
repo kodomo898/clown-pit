@@ -69,7 +69,7 @@ export default function Examples() {
     {
       title: "AWS Glueを利用したETL",
       description: "AWS Glueを利用したETLを行った。",
-      tech: ["AWS", "Glue", "Python", "AWS Lambda", "AWS S3", "AWS Athena", "AWS Redshift"],
+      tech: ["AWS", "Glue", "Python", "terraform", "AWS Lambda", "AWS S3", "AWS Athena", "AWS Redshift"],
       image: "/corp_example/etl.png"
     }
   ];
