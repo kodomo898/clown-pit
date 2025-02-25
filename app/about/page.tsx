@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import HamburgerMenu from '../components/HamburgerMenu';
 import Image from 'next/image';
 import Link from 'next/link';
+import TechStack from '../components/TechStack';
 
 // const spaceGrotesk = Space_Grotesk({
 //   subsets: ['latin'],
@@ -139,6 +140,13 @@ export default function About() {
               </div>
             </section>
           </div>
+
+          {/* TechStack コンポーネントを追加 */}
+          <section className="opacity-0 animate-fadeIn animation-delay-1500">
+            <div className="relative z-10 bg-black/50 p-6 rounded-lg backdrop-blur-sm">
+              <TechStack />
+            </div>
+          </section>
         </div>
       </main>
 
@@ -158,8 +166,7 @@ export default function About() {
               "addressCountry": "JP"
             },
             "sameAs": [
-              "https://twitter.com/clownpit",
-              "https://github.com/clownpit"
+              "https://twitter.com/clownpit"
             ]
           })
         }}
